@@ -1,0 +1,282 @@
+body{
+    display: block;
+    margin: 0px;
+    background-color: #FBE5E5;
+    font-family:'Tajawal', sans-serif ;
+    text-align: center;
+}
+
+
+
+/* container */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+.container-fluid1{
+    padding: 6% 12%;
+}
+
+ /* for features */
+.container-fluid2{
+    padding: 3% 12%;
+}
+
+/* heading */
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;  
+    line-height: 1.5;       
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/* background color */
+
+.colored-section1{
+    background-color: #E60965;
+}
+
+.colored-section2{
+    background-color:#F94892;
+    color: #fff;
+}
+
+/* Navigation bar  */
+
+.navbar{
+    padding: 0.2rem 5rem 0rem 5rem;
+    background-color: #FFA1C9;
+    color: white;
+}
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+
+.nav-item{
+    padding-right: 2rem;
+}
+
+.nav-link{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.2rem;
+    font-weight:bold;
+}
+
+
+
+/* title */
+    
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.msg{
+    padding-top: 10rem;
+}
+
+/* download buttons */
+
+.download-button{
+    margin: 2.5rem 0.5rem;
+    width: 10rem;
+    height: 3rem;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+
+
+/* Home page collage of images */
+
+.title-image{
+    height: 9rem;
+    width:100%;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.love{
+    background-color: white;
+}
+
+
+/* @media (min-width:995px){
+.title-image{
+    width: 20%;
+    transform: rotate(20deg)
+    position: absolute;
+    right:300px;
+}
+}
+
+@media (max-width:995px){ 
+    .title-image {
+        width: 50%;
+    }
+    #title{
+        text-align: center;
+    }  
+
+} */
+
+
+
+
+/* features */
+
+#features{
+    background-color:#E1E5EA;
+    position: relative;
+}
+
+.feature-title{
+    font-size: 3rem;
+}
+.feature-items{
+    padding: 15% 7% ;
+}
+.feature-icon{
+    color: #FF1818;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.feature-icon:hover {
+    color:#ff4c68;
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+    color: #E60965;
+    font-size: 2rem;
+}
+
+.feature-video {
+    width: 15rem;
+    height: 36rem;
+}
+
+.feature-video1 {
+    width: 20rem;
+    height: 34rem;
+}
+
+
+/* testimonials */
+
+.testimonial-item{
+    margin: 10px;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-control-prev{
+    padding-right: 50px;
+}
+
+.carousel-control-next{
+    padding-left: 50px;
+}
+
+/* press */
+
+#press{
+    padding-bottom: 40px;
+}
+
+.press-logo{
+    width: 15%;
+    height: 100px;
+    margin: 0 20px;
+}
+
+
+/* pricing  */
+
+.pricing-heading{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+li{
+    font-family: 'Tajawal', sans-serif;
+    color: #8f8f8f;
+}
+
+/* call to action */
+
+#download{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+
+/* footer of page */
+
+.social-item{
+    padding: 2% 1%;
+    margin: 0;
+}
+
+.social-item:hover {
+    color: #ff4c68;
+}
+
+
+
+/* pricing table */
+
+.pricingTable7,.pricingTable7 .pricingTable-header{
+    position:relative
+}
+#pricing{
+    background:#FFEACA; padding: 0;
+}
+.pricingTable7{ border-width: 20px; 
+    border-color: black; margin:0 20px;background:#fff;border-radius:20px;border-bottom:5px solid #4fc2f8;text-align:center;z-index:1}
+.pricingTable7 .pricingTable-header:after,.pricingTable7 .pricingTable-header:before{content:"";border-top:10px solid #48434a;border-left:10px solid transparent;position:absolute;bottom:-10px;left:-10px}
+.pricingTable7 .pricingTable-header:after{border-left:none;border-right:10px solid transparent;left:auto;right:-10px}
+.pricingTable7 .title{padding:25px 5px;margin:0;background:#030004;background:linear-gradient(to top,#030004,#314047);border-radius:20px 20px 0 0;font-size:26px;font-weight:700;color:#fff;text-transform:uppercase;position:relative}
+.pricingTable7 .title:after,.pricingTable7 .title:before{content:"";border-left:10px solid #c2c8c9;border-top:37px solid transparent;border-bottom:37px solid transparent;position:absolute;bottom:-114px;left:-30px}
+.pricingTable7 .title:after{border-left:none;border-right:10px solid #c2c8c9;left:auto;right:-30px}
+.pricingTable7 .price-value{display:block;padding:15px 5px;margin:0 -10px;background:#4fc2f8;font-size:36px;font-weight:700;color:#fff;position:relative}
+.pricingTable7 .price-value:after,.pricingTable7 .price-value:before{content:"";width:30px;height:90%;background:#0082d4;position:absolute;top:50%;left:-20px;z-index:-1}
+.pricingTable7 .price-value:after{left:auto;right:-20px}
+.pricingTable7 .month{font-size:15px;font-weight:700;margin-left:3px;position:relative;top:-12px}
+.pricingTable7 .pricing-content{list-style:none;padding:15px 0;margin:0}
+.pricingTable7 .pricing-content li{padding:8px 0;font-size:15px;font-weight:700;color:black;line-height:30px;border-bottom:2px dashed #e3e3e3;position:relative}
+.pricingTable7 .pricing-content li:last-child{border-bottom:none}
+.pricingTable7 .pricingTable-signup{display:inline-block;padding:10px 30px;font-size:16px;color:#fff;text-transform:uppercase;border:2px solid #4fc2f8;box-shadow:3px 3px 10px 0 rgba(0,0,0,.08);perspective:300px;z-index:1;position:relative;transition:all .3s ease 0s}
+.pricingTable7 .pricingTable-signup:hover{color:#4fc2f8}
+.pricingTable7 .pricingTable-signup:before{content:"";width:100%;height:100%;background:#4fc2f8;position:absolute;top:0;left:0;z-index:-1;transform-origin:left center 0;transition:all .3s ease 0s}
+.pricingTable7 .pricingTable-signup:hover:before{transform:rotateY(90deg)}
+.pricingTable.orange{border-bottom-color:#fb8c00}
+.pricingTable7.orange .price-value,.pricingTable7.orange .pricingTable-signup:before{background:#fb8c00}
+.pricingTable7.orange .price-value:after,.pricingTable7.orange .price-value:before{background:#cd4410}
+.pricingTable7.orange .pricingTable-signup{border-color:#fb8c00}
+.pricingTable7.orange .pricingTable-signup:hover{color:#fb8c00}
+.pricingTable7.pink{border-bottom-color:#d81a60}
+.pricingTable7.pink .price-value,.pricingTable7.pink .pricingTable-signup:before{background:#d81a60}
+.pricingTable7.pink .price-value:after,.pricingTable7.pink .price-value:before{background:#a91a58}
+.pricingTable7.pink .pricingTable-signup{border-color:#d81a60}
+.pricingTable7.pink .pricingTable-signup:hover{color:#d81a60}
+@media only screen and (max-width:990px){.pricingTable7{margin-bottom:30px}
+}
