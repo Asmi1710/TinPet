@@ -1,7 +1,7 @@
 body{
     display: block;
     margin: 0px;
-    background-color: #FBE5E5;
+    background-color: #FFEAC9;
     font-family:'Tajawal', sans-serif ;
     text-align: center;
 }
@@ -41,11 +41,11 @@ h1{
 /* background color */
 
 .colored-section1{
-    background-color: #E60965;
+    background-color: #D83A56;
 }
 
 .colored-section2{
-    background-color:#F94892;
+    background-color:#FF2442;
     color: #fff;
 }
 
@@ -53,13 +53,14 @@ h1{
 
 .navbar{
     padding: 0.2rem 5rem 0rem 5rem;
-    background-color: #FFA1C9;
+    background-color: #FF616D;
     color: white;
 }
 .navbar-brand{
     font-family: 'Sansita Swashed', cursive;
     font-size: 2.5rem;
     font-weight:bold;
+    color: #FFEAC9;
 }
 
 .nav-item{
@@ -138,14 +139,27 @@ h1{
 
 /* features */
 
-#features{
-    background-color:#E1E5EA;
+.features{
     position: relative;
 }
 
-.feature-title{
+.feature-title {
     font-size: 3rem;
 }
+
+.feature1{
+    color:#0082d4;
+}
+
+.feature2{
+    color: #FC5404;
+}
+
+.feature3{
+    color:#d81a60;
+}
+
+
 .feature-items{
     padding: 15% 7% ;
 }
@@ -161,7 +175,7 @@ h1{
 
 p{
     font-family: 'Dancing Script', cursive;
-    color: #E60965;
+    color:#FF1818;
     font-size: 2rem;
 }
 
@@ -175,6 +189,16 @@ p{
     height: 34rem;
 }
 
+/* animated effect to headings */
+
+span {
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+span.flick {
+    opacity: 1;
+}
 
 /* testimonials */
 
@@ -260,7 +284,7 @@ li{
 .pricingTable7 .price-value{display:block;padding:15px 5px;margin:0 -10px;background:#4fc2f8;font-size:36px;font-weight:700;color:#fff;position:relative}
 .pricingTable7 .price-value:after,.pricingTable7 .price-value:before{content:"";width:30px;height:90%;background:#0082d4;position:absolute;top:50%;left:-20px;z-index:-1}
 .pricingTable7 .price-value:after{left:auto;right:-20px}
-.pricingTable7 .month{font-size:15px;font-weight:700;margin-left:3px;position:relative;top:-12px}
+/* .pricingTable7 .month{font-size:15px;font-weight:700;margin-left:3px;position:relative;top:-12px} */
 .pricingTable7 .pricing-content{list-style:none;padding:15px 0;margin:0}
 .pricingTable7 .pricing-content li{padding:8px 0;font-size:15px;font-weight:700;color:black;line-height:30px;border-bottom:2px dashed #e3e3e3;position:relative}
 .pricingTable7 .pricing-content li:last-child{border-bottom:none}

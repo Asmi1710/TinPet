@@ -37,7 +37,7 @@
             <nav class="navbar fixed-top navbar-expand-lg navbar-light" >
                 <a class="navbar-brand" href="#"><i class="fa-solid fa-paw"></i> tinpet</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <h2 class="navbar-toggler-icon"></h2>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto" >
@@ -73,7 +73,7 @@
                 <div class="col-lg-6" id="mob">
                     <div class="row gx-0">
                         <div class="col-lg-4 col-md-6">
-                          <img class="title-image" src="pets/friends1.gif" alt="">
+                          <img class="title-image" src="pets/birds.gif" alt="">
                         </div>
                         <div class="col-lg-4 col-md-6">
                           <img class="title-image" src="pets/friendsGIF.gif" alt="">
@@ -112,12 +112,12 @@
     <!--features -->
 
 
-    <section  id="features f1">
+    <section  class="features">
       <div class="container-fluid2">
         <div class="row">
           <div class=" feature-items col-lg-6">
               <i class="fa-solid fa-circle-check feature-icon"></i>
-              <h3 class="feature-title">Easy to use.</h3>
+              <h3 class="feature-title feature1">Easy to use.</h3>
               <p>So easy to use, even your pet could do it.</p>
           </div>
           <div class="col">
@@ -126,7 +126,7 @@
         </div>  
       </div>  
     </section>
-    <section  id="features f2">
+    <section  class="features">
       <div class="container-fluid2">
         <div class="row">
           <div class="col">
@@ -134,21 +134,21 @@
           </div>
           <div class=" feature-items col-lg-6">
             <i class="fa-solid fa-bullseye feature-icon"></i>
-            <h3 class="feature-title">Elite Clientele</h3>
+            <h3 class="feature-title feature2">Elite Clientele</h3>
             <p>We have all the pets, the greatest pets.</p>
           </div>
         </div> 
       </div>  
     </section>
-    <section  id="features f3">
+    <section  class="features">
       <div class="container-fluid2">
         <div class="row gx-0">
           <div class=" feature-items col-lg-6">
             <i class="fa-solid fa-heart feature-icon"></i>
-            <h3 class="feature-title">Guaranteed to work.</h3>
+            <h3 class="feature-title feature3">Guaranteed to work.</h3>
             <p>Find the love of your pet's life or your money back.</p>
           </div>
-          <div class="col ">
+          <div class="col">
             <img class="feature-video1" src="pets/dog-cat.gif"></video>
           </div>
         </div>  
@@ -186,12 +186,12 @@
             </div>
             <div>
               <a class="carousel-control-prev" role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span> -->
               </a>
               <a class="carousel-control-next" role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span> -->
               </a>
             </div>
         </div>
@@ -216,14 +216,16 @@
               <h2>A Plan for Every Pet's Needs</h2>
               <p>Simple and affordable price plans for you and your pet.</p>
           </div>
+
+          <!-- Plan "RealDiddyKong"- free  -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="pricingTable7">
                         <div class="pricingTable-header">
                             <h3 class="title">DiddyKong</h3>
-                            <span class="price-value">
+                            <p class="price-value">
                                 Free
-                            </span>
+                            </p>
                         </div>
                         <ul class="pricing-content">
                             <li>5 Matches Per Day</li>
@@ -234,13 +236,15 @@
                         <a href="#" class="pricingTable-signup">Sign Up</a>
                     </div>
                 </div>
+
+                <!-- Plan "NalaCat"- for  ₹ 299/ month  -->
                 <div class="col-lg-4 col-md-4">
                     <div class="pricingTable7 orange">
                         <div class="pricingTable-header">
                             <h3 class="title">NalaCat</h3>
-                            <span class="price-value">
-                                ₹ 299<span class="month">/ month</span>
-                            </span>
+                            <p class="price-value">
+                                ₹ 299 /month
+                            </p>
                         </div>
                         <ul class="pricing-content">
                             <li>Unlimited Matches</li>
@@ -251,13 +255,15 @@
                         <a href="#" class="pricingTable-signup">Sign Up</a>
                     </div>
                 </div>
+
+                <!-- Plan "Mastiff"- for ₹ 599/ month  -->
                 <div class="col-lg-4 col-md-4">
                     <div class="pricingTable7 pink">
                         <div class="pricingTable-header">
                             <h3 class="title">JiffPom</h3>
-                            <span class="price-value">
-                                ₹ 599<span class="month">/ month</span>
-                            </span>
+                            <p class="price-value">
+                                ₹ 599 /month
+                            </p>
                         </div>
                         <ul class="pricing-content">
                             <li>Unlimited Matches</li>
@@ -275,75 +281,11 @@
 
 
 
-
-          <!-- <div class="row row-cols-1 row-cols-md-3 mb-3 text-center"> -->
-            
-            <!-- Plan "RealDiddyKong"- free  -->
-            <!-- <div class="col-lg-4 col-md-6">
-              <div class="card mb-4 rounded-3 shadow-sm">
-                <div class="card-header py-3">
-                  <h3 class="my-0 fw-normal">🐵 DiddyKong</h3>
-                </div>
-                <div class="card-body">
-                    <h2 class="card-title pricing-card-title">Free</h2>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>5 Matches Per Day</li>
-                        <li>10 Messages Per Day</li>
-                        <li>Unlimited App Usage</li>
-                    </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign Up</button>
-                </div>
-              </div>
-            </div> -->
-
-            <!-- Plan "NalaCat"- for $49/ month  -->
-            <!-- <div class="col-lg-4 col-md-6">
-              <div class="card mb-4 rounded-3 shadow-sm">
-                <div class="card-header py-3">
-                  <h3 class="my-0 fw-normal">🐱 NalaCat</h3>
-                </div>
-                <div class="card-body">
-                  <h2 class="card-title pricing-card-title">$49<small class="text-muted fw-light">/mo</small></h2>
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <li>Unlimited Matches</li>
-                    <li>Unlimited Messages</li>
-                    <li>Unlimited App Usage<li>
-                  </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign Up</button>
-                </div>
-              </div>
-            </div> -->
-
-             <!-- Plan "Mastiff"- for $99/ month  -->
-            <!-- <div class="col-lg-4 col-md-12">
-              <div class="card mb-4 rounded-3 shadow-sm border-dark">
-                <div class="card-header py-3 text-white bg-dark border-dark">
-                  <h3 class="my-0 fw-normal">🐶 JiffPom</h3>
-                </div>
-                <div class="card-body">
-                  <h2 class="card-title pricing-card-title">$99<small class="text-muted fw-light">/mo</small></h2>
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <li>Pirority Listing</li>
-                    <li>Unlimited Matches</li>
-                    <li>Unlimited Messages</li>
-                    <li>Unlimited App Usage</li>
-                  </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>      
-    </section> -->
-
-
      <!-- Call to Action -->
 
     <section id="download" class="colored-section1">
       <div class="container-fluid">
         <h1>Find the True Love of Your Pet's Life Today.</h1>
-        <!-- <button type="button" class="btn btn-dark btn-lg download-button"> <i class="fa-brands fa-apple"></i> Download</button>
-        <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button> -->
         <button type="button" class="btn btn-dark btn-lg download-button"> <i class="fa-brands fa-apple"></i> <small>Download on the</small><strong> App Store</strong></button>
         <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> <small>Get it on</small><strong> Google Play</strong></button>
       </div>          
@@ -355,12 +297,12 @@
     <footer id="footer">
       <div class="container-fluid">
         <div class="row social-media">
-            <span>
+            <div class="col ">
               <a href="https://twitter.com/Asmita_S"><i class="fa-brands fa-twitter social-item"></i></a>
               <a href="https://www.facebook.com/asmita.singh.52"><i class="fa-brands fa-facebook-f social-item"> </i></a>
               <a href="https://www.instagram.com/asmi_ka_jaadu/"><i class="fa-brands fa-instagram social-item"></i></a>
               <a href="https://asmi1710.github.io/cv/Contact.html"><i class="fa-solid fa-envelope social-item"></i> </a>
-            </span>
+            </div>
         </div>
         <div class="copyright">
             <p>© Copyright 2022 TinPet</p>
