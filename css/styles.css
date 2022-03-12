@@ -38,6 +38,13 @@ h1{
     color: white;
 }
 
+h4{
+    font-family: 'Dancing Script', cursive;
+    color:#FF1818;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
 /* background color */
 
 .colored-section1{
@@ -60,7 +67,6 @@ h1{
     font-family: 'Sansita Swashed', cursive;
     font-size: 2.5rem;
     font-weight:bold;
-    color: #FFEAC9;
 }
 
 .nav-item{
@@ -193,12 +199,19 @@ p{
 
 span {
     opacity: 0;
-    transition: all 1s ease;
+    transition: all 0.8s ease;
 }
 
 span.flick {
     opacity: 1;
 }
+
+span.flipping {
+    opacity: 1;
+    color:	#9932CC;
+    font-size: 3rem;
+}
+
 
 /* testimonials */
 
@@ -256,8 +269,10 @@ li{
 /* footer of page */
 
 .social-item{
-    padding: 2% 1%;
+    padding: 4% 1%;
     margin: 0;
+    height: 2rem;
+    width: 2rem;
 }
 
 .social-item:hover {
