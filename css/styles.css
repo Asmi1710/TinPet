@@ -69,6 +69,10 @@ h4{
     font-weight:bold;
 }
 
+.navbar-light .navbar-brand{
+    color:#9932CC ;
+}
+
 .nav-item{
     padding-right: 2rem;
 }
@@ -78,8 +82,6 @@ h4{
     font-size: 1.2rem;
     font-weight:bold;
 }
-
-
 
 /* title */
     
@@ -185,14 +187,20 @@ p{
     font-size: 2rem;
 }
 
-.feature-video {
+/* .feature-video {
     width: 15rem;
     height: 36rem;
-}
+} */
 
 .feature-video1 {
     width: 20rem;
-    height: 34rem;
+    height: 32rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+}
+
+.video-div{
+    padding: 5% 0;
 }
 
 /* animated effect to headings */
