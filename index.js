@@ -18,18 +18,23 @@ for (var j=0; j<k;j++) {
 }
 
 
-visualViewport.addEventListener("scroll", changeTitle);
-
+const text =document.querySelectorAll(".feature-title")[0];
+console.log ("st1");
+const strText =text.textContent;
+const splitText= strText.split ("");
+    
  function changeTitle (){
-     const text =document.querySelectorAll(".feature-title")[0];
-     const strText =text.textContent;
-     const splitText= strText.split ("");
+
+    //  const text =document.querySelectorAll(".feature-title")[0];
+    //  console.log ("st1");
+    //  const strText =text.textContent;
+    //  const splitText= strText.split ("");
     
      text.textContent="";
      for (var i=0;i<splitText.length;i++){
           text.innerHTML+="<span>"+ splitText[i]+"</span>";
       }
-
+      console.log ("st2");
      let char=0;
      let timer = setInterval (flicker,50);
 
@@ -48,4 +53,44 @@ visualViewport.addEventListener("scroll", changeTitle);
         console.log ("done");
     }  
  }
+
+ 
+ changeTitle ();
+
+ function repeatFlick (){
+    for (let i=0; i<splitText.length;i++)
+    {
+        const span =text.querySelectorAll ("span")[i];
+        span.classList.remove("flick");
+    }
+    let char=0;
+    let timer= setInterval (flicker,80);
+    console.log ("st1-again");
+
+    function flicker () {
+        const span =text.querySelectorAll ("span")[char];
+        span.classList.add("flick");
+        char++;
+        console.log ("st3-again");
+        if (char==splitText.length){
+           complete ();
+           console.log ("st2-again");
+           return;
+        }
+     }
+   function complete (){
+       clearInterval (timer);
+       timer=null;
+       console.log ("done");
+   }  
+ }
+
+console.log (window.visualViewport);
+console.log (window.screenY);
+
+window.addEventListener("scroll", function (){
+    // let elem = document.querySelector (".")   
+    // console.log ("Y="+ doc.scrollTop);
+       repeatFlick ();
+   });
 
