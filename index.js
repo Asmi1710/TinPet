@@ -20,7 +20,7 @@ for (var j=0; j<k;j++) {
 
 //****************************************************************************** */
 // adding animation to the title of tinpet
-document.querySelectorAll(".navbar-brand")[1].textContent=" tinpet";
+document.querySelectorAll(".navbar-brand")[1].textContent="tinpet";
 const titleHead = document.querySelectorAll(".navbar-brand")[1];
 const splitHead = titleHead.textContent.split("");
 titleHead.textContent="";
