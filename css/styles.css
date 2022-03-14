@@ -249,6 +249,7 @@ span.flipping {
 
 .testimonial-image{
     width: 20%;
+    height: 12rem;
     border-radius: 100%;
     margin: 20px;
 }
